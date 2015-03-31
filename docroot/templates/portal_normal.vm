@@ -33,11 +33,13 @@ $theme.include($body_top_include)
 		<div class="container">
 			<div class="row">
 				<div class="span1">
-					$taglibLiferay.language("fm", null, "_82_languageId", 4)
+					<div class="language">
+						$taglibLiferay.language("fm", null, "_82_languageId", 4)
+					</div>
 				</div>
 				<div class="span3">
 					$theme.journalContentSearch() 
-				</div>
+				</div> 
 				<div class="span3">
 					<a class="$logo_css_class" href="$site_default_url" title="#language_format ("go-to-x", [$site_name])">
 						<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />

@@ -2103,7 +2103,7 @@ html, body {
   /*--------------------- breadcrumbs ----------------------*/ }
   .aui body {
     background: url(@base_url@/css/../images/tiny_grid.png);
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial,Helvetica,"Roboto",sans-serif;
     color: #4e4e4e;
     font-size: 13px; }
   .aui img {
@@ -2115,7 +2115,7 @@ html, body {
   .aui h5,
   .aui h6 {
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #4e4e4e; }
   .aui a {
     color: #4e4e4e;
@@ -2196,7 +2196,7 @@ html, body {
     background-color: transparent;
     color: #fff;
     cursor: pointer;
-    font-size: 12px; }
+    font-size: 13px; }
   .aui .jMenu li a:hover {
     background-color: #2a2a2a;
     color: #23dbdb;
@@ -2292,4 +2292,7 @@ html, body {
 
 .aui .form {
   margin: 5px; }
+
+.language {
+  margin: 16px; }
 
