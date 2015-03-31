@@ -6,6 +6,13 @@
 @import url(color_schemes/orange.css);
 @import url(color_schemes/green.css);
 
+.aui [class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 1px;
+}
+
+
 /* -----------Mixins --------------*/
 @mixin clearfix() {
     &:before,
@@ -228,4 +235,8 @@
 		}
 	}
 
+}
+
+.aui .form {
+    margin: 5px;
 }

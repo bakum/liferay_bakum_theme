@@ -98,10 +98,10 @@
 (function($){
 		$("#jMenu").jMenu({
             openClick : false,
-            ulWidth :'150px',
+            ulWidth :'250px',
              TimeBeforeOpening : 100,
             TimeBeforeClosing : 11,
-            animatedText : false,
+            animatedText : true,
             paddingLeft: 1,
             absoluteTop:61,
             effects : {
