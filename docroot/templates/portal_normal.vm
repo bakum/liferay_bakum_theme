@@ -37,15 +37,12 @@ $theme.include($body_top_include)
 						$taglibLiferay.language("fm", null, "_82_languageId", 4)
 					</div>
 				</div>
-				<div class="span3">
-					$theme.journalContentSearch() 
-				</div> 
-				<div class="span3">
+				<div class="span4">
 					<a class="$logo_css_class" href="$site_default_url" title="#language_format ("go-to-x", [$site_name])">
 						<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />
 					</a>
 				</div>
-				<div class="span6">
+				<div class="span7">
 					#if ($has_navigation || $is_signed_in)
 						#parse ("$full_templates_path/navigation.vm")
 					#end
@@ -56,7 +53,14 @@ $theme.include($body_top_include)
 
 	<div id="content">
 		<div class="container">
-			<nav id="breadcrumbs">#breadcrumbs()</nav>
+			<div class="row">
+				<div class="span9">
+					<nav id="breadcrumbs">#breadcrumbs()</nav>
+				</div> 
+				<div class="span3">
+					$theme.journalContentSearch() 
+				</div> 
+			</div>
 
 			#if ($selectable)
 				$theme.include($content_include)

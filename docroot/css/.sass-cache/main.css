@@ -2105,7 +2105,7 @@ html, body {
     background: url(@base_url@/css/../images/tiny_grid.png);
     font-family: Arial,Helvetica,"Roboto",sans-serif;
     color: #4e4e4e;
-    font-size: 13px; }
+    font-size: 14px; }
   .aui img {
     height: none; }
   .aui h1,
@@ -2295,4 +2295,7 @@ html, body {
 
 .language {
   margin: 16px; }
+
+.aui .row {
+  margin-left: 20px; }
 

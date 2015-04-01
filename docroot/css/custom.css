@@ -43,7 +43,7 @@
 	  background:url(../images/tiny_grid.png);
 	  font-family: Arial,Helvetica,"Roboto",sans-serif;
 	  color:$col2;
-	  font-size:13px;
+	  font-size:14px;
 	}
 	img {
 		height:none;
@@ -245,4 +245,8 @@
 
 .language {
     margin: 16px;
+}
+
+.aui .row {
+    margin-left: 20px;
 }
